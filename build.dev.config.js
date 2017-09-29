@@ -1,5 +1,5 @@
 module.exports = {
-    staticUrl: '//static.eelly.dev',
+    staticUrl: '//localhost:3030',
     uglifyConfig: {
         compress: true,
         ie8: true   
