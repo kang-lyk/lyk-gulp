@@ -1,7 +1,7 @@
 {
   "name": "eelly-gulp",
   "version": "0.1.0",
-  "description": "衣联网gulp",
+  "description": "lykgulp",
   "scripts": {
     "server": "gulp server",
     "build": "gulp build",
