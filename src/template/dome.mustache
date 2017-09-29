@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>{{name}}的主页</title>
+	<link rel="stylesheet" type="text/css" href="@static/css/base.css">
+	<link rel="stylesheet" type="text/css" href="@static/css/demo.css">
+</head>
+<body>
+	
+	<img src="@static/images/logo.png">
+	<div class="logo"></div>
+	<h1>我叫{{name}},我来自{{province}}</h1>	
+	<i class="icon"></i>
+	<div class="main">
+		<div class="banner"></div>
+	</div>
+	<div class="j-time"></div>
+	<div class="j-time1"></div>
+	{{> nav }}
+	<script type="text/javascript" src="@static/js/base.js"></script>
+	<script type="text/javascript" src="@static/js/dome/dome.js"></script>
+</body>
+</html>

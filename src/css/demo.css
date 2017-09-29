@@ -1,0 +1,25 @@
+@import '_iconfont.css';
+
+.logo {
+	width: width('images/logo.png'); 
+	height: height('images/logo.png'); 
+  	background: resolve('images/logo.png');
+}
+.icon {
+    display: block;
+	width: width('images/icon.png'); 
+	height: height('images/icon.png'); 
+    background: #fff inline('images/icon.png');
+}
+.main {    
+    display: flex;
+    .banner {
+        width: 500px;
+        height: 150px;
+        background: linear-gradient(red, blue);
+    }
+}
+
+.sp0 {
+    background: #fff url(images/sprite/sp0.png) 0 0 no-repeat;
+}
